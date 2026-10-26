@@ -274,7 +274,9 @@
       "@type": "CreativeWork",
       "name": "Preview of Workflow RO-Crate",
       "encodingFormat": "text/html",
-      "about": "./"
+      "about": {
+        "@id": "./"
+      }
     },
     {
       "@id": "https://www.researchobject.org/specification/ro-crate/1.3/profiles",
