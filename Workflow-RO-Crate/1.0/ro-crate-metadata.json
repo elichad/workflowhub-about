@@ -9,7 +9,7 @@
           "@id": "https://w3id.org/ro/crate/1.1"
         },
         {
-          "@id": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles"
+          "@id": "https://www.researchobject.org/ro-crate/1.2/profiles"
         }
       ],
       "about": {
@@ -258,7 +258,7 @@
       "@type": "CreativeWork",
       "name": "Preview of Workflow RO-Crate",
       "encodingFormat": "text/html",
-      "about": "./"
+      "about": {"@id": "./"}
     },
     {
       "@id": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles",
