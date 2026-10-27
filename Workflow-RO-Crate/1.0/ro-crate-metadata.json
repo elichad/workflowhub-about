@@ -258,20 +258,26 @@
       "@type": "CreativeWork",
       "name": "Preview of Workflow RO-Crate",
       "encodingFormat": "text/html",
-      "about": {"@id": "./"}
+      "about": {
+        "@id": "./"
+      }
     },
     {
-      "@id": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles",
+      "@id": "https://www.researchobject.org/ro-crate/1.2/profiles",
       "@type": "Guide",
       "name": "Profile Crate",
-      "version": "1.2-DRAFT"
+      "version": "1.2"
     },
     {
       "@id": "example/ro-crate-metadata.json",
       "@type": "CreativeWork",
       "conformsTo": [
-        {"@id": "https://w3id.org/ro/crate/1.1"}, 
-        {"@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"}
+        {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        {
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
+        }
       ],
       "encodingFormat": "application/json",
       "license": {
@@ -296,7 +302,7 @@
         },
         {
           "@id": "https://orcid.org/0000-0001-9842-9718"
-        }        
+        }
       ],
       "dateModified": "2024-03-13T10:43:00.000Z",
       "name": "Workflow RO-Crate profile description"
@@ -666,7 +672,7 @@
       "termCode": "ImageObject"
     },
     {
-      "@id": "http://spdx.org/licenses/AAL", 
+      "@id": "http://spdx.org/licenses/AAL",
       "@type": "DefinedTerm",
       "termCode": "AAL",
       "identifier": "AAL",
@@ -674,15 +680,15 @@
       "url": "https://opensource.org/licenses/AAL"
     },
     {
-      "@id": "http://spdx.org/licenses/AFL-3.0", 
+      "@id": "http://spdx.org/licenses/AFL-3.0",
       "@type": "DefinedTerm",
-      "termCode": "AFL-3.0", 
+      "termCode": "AFL-3.0",
       "identifier": "AFL-3.0",
       "name": "Academic Free License 3.0",
       "url": "https://opensource.org/licenses/AFL-3.0"
     },
     {
-      "@id": "http://spdx.org/licenses/AGPL-3.0", 
+      "@id": "http://spdx.org/licenses/AGPL-3.0",
       "@type": "DefinedTerm",
       "termCode": "AGPL-3.0",
       "identifier": "AGPL-3.0",
@@ -690,7 +696,7 @@
       "url": "https://opensource.org/licenses/AGPL-3.0"
     },
     {
-      "@id": "http://spdx.org/licenses/APL-1.0", 
+      "@id": "http://spdx.org/licenses/APL-1.0",
       "@type": "DefinedTerm",
       "termCode": "APL-1.0",
       "identifier": "APL-1.0",
@@ -698,7 +704,7 @@
       "url": "https://opensource.org/licenses/APL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/APSL-2.0", 
+      "@id": "http://spdx.org/licenses/APSL-2.0",
       "@type": "DefinedTerm",
       "termCode": "APSL-2.0",
       "identifier": "APSL-2.0",
@@ -706,7 +712,7 @@
       "url": "https://opensource.org/licenses/APSL-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/Apache-1.1", 
+      "@id": "http://spdx.org/licenses/Apache-1.1",
       "@type": "DefinedTerm",
       "termCode": "Apache-1.1",
       "identifier": "Apache-1.1",
@@ -714,7 +720,7 @@
       "url": "https://opensource.org/licenses/Apache-1.1"
     },
     {
-      "@id": "http://spdx.org/licenses/Apache-2.0", 
+      "@id": "http://spdx.org/licenses/Apache-2.0",
       "@type": "DefinedTerm",
       "termCode": "Apache-2.0",
       "identifier": "Apache-2.0",
@@ -722,7 +728,7 @@
       "url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/Artistic-2.0", 
+      "@id": "http://spdx.org/licenses/Artistic-2.0",
       "@type": "DefinedTerm",
       "termCode": "Artistic-2.0",
       "identifier": "Artistic-2.0",
@@ -730,7 +736,7 @@
       "url": "https://opensource.org/licenses/Artistic-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/BSD-2-Clause", 
+      "@id": "http://spdx.org/licenses/BSD-2-Clause",
       "@type": "DefinedTerm",
       "termCode": "BSD-2-Clause",
       "identifier": "BSD-2-Clause",
@@ -738,7 +744,7 @@
       "url": "https://opensource.org/licenses/BSD-2-Clause"
     },
     {
-      "@id": "http://spdx.org/licenses/BSD-3-Clause", 
+      "@id": "http://spdx.org/licenses/BSD-3-Clause",
       "@type": "DefinedTerm",
       "termCode": "BSD-3-Clause",
       "identifier": "BSD-3-Clause",
@@ -746,7 +752,7 @@
       "url": "https://opensource.org/licenses/BSD-3-Clause"
     },
     {
-      "@id": "http://spdx.org/licenses/BSL-1.0", 
+      "@id": "http://spdx.org/licenses/BSL-1.0",
       "@type": "DefinedTerm",
       "termCode": "BSL-1.0",
       "identifier": "BSL-1.0",
@@ -754,7 +760,7 @@
       "url": "https://opensource.org/licenses/BSL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/BitTorrent-1.1", 
+      "@id": "http://spdx.org/licenses/BitTorrent-1.1",
       "@type": "DefinedTerm",
       "termCode": "BitTorrent-1.1",
       "identifier": "BitTorrent-1.1",
@@ -762,7 +768,7 @@
       "url": "https://spdx.org/licenses/BitTorrent-1.1"
     },
     {
-      "@id": "http://spdx.org/licenses/CATOSL-1.1", 
+      "@id": "http://spdx.org/licenses/CATOSL-1.1",
       "@type": "DefinedTerm",
       "termCode": "CATOSL-1.1",
       "identifier": "CATOSL-1.1",
@@ -770,7 +776,7 @@
       "url": "https://opensource.org/licenses/CATOSL-1.1"
     },
     {
-      "@id": "http://spdx.org/licenses/CC0-1.0", 
+      "@id": "http://spdx.org/licenses/CC0-1.0",
       "@type": "DefinedTerm",
       "termCode": "CC0-1.0",
       "identifier": "CC0-1.0",
@@ -778,7 +784,7 @@
       "url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
-      "@id": "http://spdx.org/licenses/CDDL-1.0", 
+      "@id": "http://spdx.org/licenses/CDDL-1.0",
       "@type": "DefinedTerm",
       "termCode": "CDDL-1.0",
       "identifier": "CDDL-1.0",
@@ -786,7 +792,7 @@
       "url": "https://opensource.org/licenses/CDDL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/CECILL-2.1", 
+      "@id": "http://spdx.org/licenses/CECILL-2.1",
       "@type": "DefinedTerm",
       "termCode": "CECILL-2.1",
       "identifier": "CECILL-2.1",
@@ -794,7 +800,7 @@
       "url": "https://opensource.org/licenses/CECILL-2.1"
     },
     {
-      "@id": "http://spdx.org/licenses/CNRI-Python", 
+      "@id": "http://spdx.org/licenses/CNRI-Python",
       "@type": "DefinedTerm",
       "termCode": "CNRI-Python",
       "identifier": "CNRI-Python",
@@ -802,7 +808,7 @@
       "url": "https://opensource.org/licenses/CNRI-Python"
     },
     {
-      "@id": "http://spdx.org/licenses/CPAL-1.0", 
+      "@id": "http://spdx.org/licenses/CPAL-1.0",
       "@type": "DefinedTerm",
       "termCode": "CPAL-1.0",
       "identifier": "CPAL-1.0",
@@ -810,7 +816,7 @@
       "url": "https://opensource.org/licenses/CPAL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/CUA-OPL-1.0", 
+      "@id": "http://spdx.org/licenses/CUA-OPL-1.0",
       "@type": "DefinedTerm",
       "termCode": "CUA-OPL-1.0",
       "identifier": "CUA-OPL-1.0",
@@ -818,7 +824,7 @@
       "url": "https://opensource.org/licenses/CUA-OPL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/ECL-2.0", 
+      "@id": "http://spdx.org/licenses/ECL-2.0",
       "@type": "DefinedTerm",
       "termCode": "ECL-2.0",
       "identifier": "ECL-2.0",
@@ -826,7 +832,7 @@
       "url": "https://opensource.org/licenses/ECL-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/EFL-2.0", 
+      "@id": "http://spdx.org/licenses/EFL-2.0",
       "@type": "DefinedTerm",
       "termCode": "EFL-2.0",
       "identifier": "EFL-2.0",
@@ -834,7 +840,7 @@
       "url": "https://opensource.org/licenses/EFL-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/EPL-1.0", 
+      "@id": "http://spdx.org/licenses/EPL-1.0",
       "@type": "DefinedTerm",
       "termCode": "EPL-1.0",
       "identifier": "EPL-1.0",
@@ -842,7 +848,7 @@
       "url": "https://opensource.org/licenses/EPL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/EUDatagrid", 
+      "@id": "http://spdx.org/licenses/EUDatagrid",
       "@type": "DefinedTerm",
       "termCode": "EUDatagrid",
       "identifier": "EUDatagrid",
@@ -850,7 +856,7 @@
       "url": "https://opensource.org/licenses/EUDatagrid"
     },
     {
-      "@id": "http://spdx.org/licenses/EUPL-1.1", 
+      "@id": "http://spdx.org/licenses/EUPL-1.1",
       "@type": "DefinedTerm",
       "termCode": "EUPL-1.1",
       "identifier": "EUPL-1.1",
@@ -858,7 +864,7 @@
       "url": "https://opensource.org/licenses/EUPL-1.1"
     },
     {
-      "@id": "http://spdx.org/licenses/Entessa", 
+      "@id": "http://spdx.org/licenses/Entessa",
       "@type": "DefinedTerm",
       "termCode": "Entessa",
       "identifier": "Entessa",
@@ -866,7 +872,7 @@
       "url": "https://opensource.org/licenses/Entessa"
     },
     {
-      "@id": "http://spdx.org/licenses/Fair", 
+      "@id": "http://spdx.org/licenses/Fair",
       "@type": "DefinedTerm",
       "termCode": "Fair",
       "identifier": "Fair",
@@ -874,7 +880,7 @@
       "url": "https://opensource.org/licenses/Fair"
     },
     {
-      "@id": "http://spdx.org/licenses/Frameworx-1.0", 
+      "@id": "http://spdx.org/licenses/Frameworx-1.0",
       "@type": "DefinedTerm",
       "termCode": "Frameworx-1.0",
       "identifier": "Frameworx-1.0",
@@ -882,7 +888,7 @@
       "url": "https://opensource.org/licenses/Frameworx-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/GPL-2.0", 
+      "@id": "http://spdx.org/licenses/GPL-2.0",
       "@type": "DefinedTerm",
       "termCode": "GPL-2.0",
       "identifier": "GPL-2.0",
@@ -890,7 +896,7 @@
       "url": "https://opensource.org/licenses/GPL-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/GPL-3.0", 
+      "@id": "http://spdx.org/licenses/GPL-3.0",
       "@type": "DefinedTerm",
       "termCode": "GPL-3.0",
       "identifier": "GPL-3.0",
@@ -898,7 +904,7 @@
       "url": "https://opensource.org/licenses/GPL-3.0"
     },
     {
-      "@id": "http://spdx.org/licenses/HPND", 
+      "@id": "http://spdx.org/licenses/HPND",
       "@type": "DefinedTerm",
       "termCode": "HPND",
       "identifier": "HPND",
@@ -906,7 +912,7 @@
       "url": "https://opensource.org/licenses/HPND"
     },
     {
-      "@id": "http://spdx.org/licenses/IPA", 
+      "@id": "http://spdx.org/licenses/IPA",
       "@type": "DefinedTerm",
       "termCode": "IPA",
       "identifier": "IPA",
@@ -914,7 +920,7 @@
       "url": "https://opensource.org/licenses/IPA"
     },
     {
-      "@id": "http://spdx.org/licenses/IPL-1.0", 
+      "@id": "http://spdx.org/licenses/IPL-1.0",
       "@type": "DefinedTerm",
       "termCode": "IPL-1.0",
       "identifier": "IPL-1.0",
@@ -922,7 +928,7 @@
       "url": "https://opensource.org/licenses/IPL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/ISC", 
+      "@id": "http://spdx.org/licenses/ISC",
       "@type": "DefinedTerm",
       "termCode": "ISC",
       "identifier": "ISC",
@@ -930,7 +936,7 @@
       "url": "https://opensource.org/licenses/ISC"
     },
     {
-      "@id": "http://spdx.org/licenses/Intel", 
+      "@id": "http://spdx.org/licenses/Intel",
       "@type": "DefinedTerm",
       "termCode": "Intel",
       "identifier": "Intel",
@@ -938,7 +944,7 @@
       "url": "https://opensource.org/licenses/Intel"
     },
     {
-      "@id": "http://spdx.org/licenses/LGPL-2.1", 
+      "@id": "http://spdx.org/licenses/LGPL-2.1",
       "@type": "DefinedTerm",
       "termCode": "LGPL-2.1",
       "identifier": "LGPL-2.1",
@@ -946,7 +952,7 @@
       "url": "https://opensource.org/licenses/LGPL-2.1"
     },
     {
-      "@id": "http://spdx.org/licenses/LGPL-3.0", 
+      "@id": "http://spdx.org/licenses/LGPL-3.0",
       "@type": "DefinedTerm",
       "termCode": "LGPL-3.0",
       "identifier": "LGPL-3.0",
@@ -954,7 +960,7 @@
       "url": "https://opensource.org/licenses/LGPL-3.0"
     },
     {
-      "@id": "http://spdx.org/licenses/LPL-1.0", 
+      "@id": "http://spdx.org/licenses/LPL-1.0",
       "@type": "DefinedTerm",
       "termCode": "LPL-1.0",
       "identifier": "LPL-1.0",
@@ -962,7 +968,7 @@
       "url": "https://opensource.org/licenses/LPL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/LPL-1.02", 
+      "@id": "http://spdx.org/licenses/LPL-1.02",
       "@type": "DefinedTerm",
       "termCode": "LPL-1.02",
       "identifier": "LPL-1.02",
@@ -970,7 +976,7 @@
       "url": "https://opensource.org/licenses/LPL-1.02"
     },
     {
-      "@id": "http://spdx.org/licenses/LPPL-1.3c", 
+      "@id": "http://spdx.org/licenses/LPPL-1.3c",
       "@type": "DefinedTerm",
       "termCode": "LPPL-1.3c",
       "identifier": "LPPL-1.3c",
@@ -978,7 +984,7 @@
       "url": "https://opensource.org/licenses/LPPL-1.3c"
     },
     {
-      "@id": "http://spdx.org/licenses/MIT", 
+      "@id": "http://spdx.org/licenses/MIT",
       "@type": "DefinedTerm",
       "termCode": "MIT",
       "identifier": "MIT",
@@ -986,7 +992,7 @@
       "url": "https://opensource.org/licenses/MIT"
     },
     {
-      "@id": "http://spdx.org/licenses/MPL-1.0", 
+      "@id": "http://spdx.org/licenses/MPL-1.0",
       "@type": "DefinedTerm",
       "termCode": "MPL-1.0",
       "identifier": "MPL-1.0",
@@ -994,7 +1000,7 @@
       "url": "https://opensource.org/licenses/MPL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/MPL-1.1", 
+      "@id": "http://spdx.org/licenses/MPL-1.1",
       "@type": "DefinedTerm",
       "termCode": "MPL-1.1",
       "identifier": "MPL-1.1",
@@ -1002,7 +1008,7 @@
       "url": "https://opensource.org/licenses/MPL-1.1"
     },
     {
-      "@id": "http://spdx.org/licenses/MPL-2.0", 
+      "@id": "http://spdx.org/licenses/MPL-2.0",
       "@type": "DefinedTerm",
       "termCode": "MPL-2.0",
       "identifier": "MPL-2.0",
@@ -1010,7 +1016,7 @@
       "url": "https://opensource.org/licenses/MPL-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/MS-PL", 
+      "@id": "http://spdx.org/licenses/MS-PL",
       "@type": "DefinedTerm",
       "termCode": "MS-PL",
       "identifier": "MS-PL",
@@ -1018,7 +1024,7 @@
       "url": "https://opensource.org/licenses/MS-PL"
     },
     {
-      "@id": "http://spdx.org/licenses/MS-RL", 
+      "@id": "http://spdx.org/licenses/MS-RL",
       "@type": "DefinedTerm",
       "termCode": "MS-RL",
       "identifier": "MS-RL",
@@ -1026,7 +1032,7 @@
       "url": "https://opensource.org/licenses/MS-RL"
     },
     {
-      "@id": "http://spdx.org/licenses/MirOS", 
+      "@id": "http://spdx.org/licenses/MirOS",
       "@type": "DefinedTerm",
       "termCode": "MirOS",
       "identifier": "MirOS",
@@ -1034,7 +1040,7 @@
       "url": "https://opensource.org/licenses/MirOS"
     },
     {
-      "@id": "http://spdx.org/licenses/Motosoto", 
+      "@id": "http://spdx.org/licenses/Motosoto",
       "@type": "DefinedTerm",
       "termCode": "Motosoto",
       "identifier": "Motosoto",
@@ -1042,7 +1048,7 @@
       "url": "https://opensource.org/licenses/Motosoto"
     },
     {
-      "@id": "http://spdx.org/licenses/Multics", 
+      "@id": "http://spdx.org/licenses/Multics",
       "@type": "DefinedTerm",
       "termCode": "Multics",
       "identifier": "Multics",
@@ -1050,7 +1056,7 @@
       "url": "https://opensource.org/licenses/Multics"
     },
     {
-      "@id": "http://spdx.org/licenses/NASA-1.3", 
+      "@id": "http://spdx.org/licenses/NASA-1.3",
       "@type": "DefinedTerm",
       "termCode": "NASA-1.3",
       "identifier": "NASA-1.3",
@@ -1058,7 +1064,7 @@
       "url": "https://opensource.org/licenses/NASA-1.3"
     },
     {
-      "@id": "http://spdx.org/licenses/NCSA", 
+      "@id": "http://spdx.org/licenses/NCSA",
       "@type": "DefinedTerm",
       "termCode": "NCSA",
       "identifier": "NCSA",
@@ -1066,7 +1072,7 @@
       "url": "https://opensource.org/licenses/NCSA"
     },
     {
-      "@id": "http://spdx.org/licenses/NGPL", 
+      "@id": "http://spdx.org/licenses/NGPL",
       "@type": "DefinedTerm",
       "termCode": "NGPL",
       "identifier": "NGPL",
@@ -1074,7 +1080,7 @@
       "url": "https://opensource.org/licenses/NGPL"
     },
     {
-      "@id": "http://spdx.org/licenses/NPOSL-3.0", 
+      "@id": "http://spdx.org/licenses/NPOSL-3.0",
       "@type": "DefinedTerm",
       "termCode": "NPOSL-3.0",
       "identifier": "NPOSL-3.0",
@@ -1082,7 +1088,7 @@
       "url": "https://opensource.org/licenses/NPOSL-3.0"
     },
     {
-      "@id": "http://spdx.org/licenses/NTP", 
+      "@id": "http://spdx.org/licenses/NTP",
       "@type": "DefinedTerm",
       "termCode": "NTP",
       "identifier": "NTP",
@@ -1090,7 +1096,7 @@
       "url": "https://opensource.org/licenses/NTP"
     },
     {
-      "@id": "http://spdx.org/licenses/Naumen", 
+      "@id": "http://spdx.org/licenses/Naumen",
       "@type": "DefinedTerm",
       "termCode": "Naumen",
       "identifier": "Naumen",
@@ -1098,7 +1104,7 @@
       "url": "https://opensource.org/licenses/Naumen"
     },
     {
-      "@id": "http://spdx.org/licenses/Nokia", 
+      "@id": "http://spdx.org/licenses/Nokia",
       "@type": "DefinedTerm",
       "termCode": "Nokia",
       "identifier": "Nokia",
@@ -1106,7 +1112,7 @@
       "url": "https://opensource.org/licenses/Nokia"
     },
     {
-      "@id": "http://spdx.org/licenses/OCLC-2.0", 
+      "@id": "http://spdx.org/licenses/OCLC-2.0",
       "@type": "DefinedTerm",
       "termCode": "OCLC-2.0",
       "identifier": "OCLC-2.0",
@@ -1114,7 +1120,7 @@
       "url": "https://opensource.org/licenses/OCLC-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/OFL-1.1", 
+      "@id": "http://spdx.org/licenses/OFL-1.1",
       "@type": "DefinedTerm",
       "termCode": "OFL-1.1",
       "identifier": "OFL-1.1",
@@ -1122,7 +1128,7 @@
       "url": "https://opensource.org/licenses/OFL-1.1"
     },
     {
-      "@id": "http://spdx.org/licenses/OGL-UK-1.0", 
+      "@id": "http://spdx.org/licenses/OGL-UK-1.0",
       "@type": "DefinedTerm",
       "termCode": "OGL-UK-1.0",
       "identifier": "OGL-UK-1.0",
@@ -1130,7 +1136,7 @@
       "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/"
     },
     {
-      "@id": "http://spdx.org/licenses/OGL-UK-2.0", 
+      "@id": "http://spdx.org/licenses/OGL-UK-2.0",
       "@type": "DefinedTerm",
       "termCode": "OGL-UK-2.0",
       "identifier": "OGL-UK-2.0",
@@ -1138,7 +1144,7 @@
       "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
     },
     {
-      "@id": "http://spdx.org/licenses/OGL-UK-3.0", 
+      "@id": "http://spdx.org/licenses/OGL-UK-3.0",
       "@type": "DefinedTerm",
       "termCode": "OGL-UK-3.0",
       "identifier": "OGL-UK-3.0",
@@ -1146,7 +1152,7 @@
       "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
     },
     {
-      "@id": "http://spdx.org/licenses/OGTSL", 
+      "@id": "http://spdx.org/licenses/OGTSL",
       "@type": "DefinedTerm",
       "termCode": "OGTSL",
       "identifier": "OGTSL",
@@ -1154,7 +1160,7 @@
       "url": "https://opensource.org/licenses/OGTSL"
     },
     {
-      "@id": "http://spdx.org/licenses/OSL-3.0", 
+      "@id": "http://spdx.org/licenses/OSL-3.0",
       "@type": "DefinedTerm",
       "termCode": "OSL-3.0",
       "identifier": "OSL-3.0",
@@ -1162,7 +1168,7 @@
       "url": "https://opensource.org/licenses/OSL-3.0"
     },
     {
-      "@id": "http://spdx.org/licenses/PHP-3.0", 
+      "@id": "http://spdx.org/licenses/PHP-3.0",
       "@type": "DefinedTerm",
       "termCode": "PHP-3.0",
       "identifier": "PHP-3.0",
@@ -1170,7 +1176,7 @@
       "url": "https://opensource.org/licenses/PHP-3.0"
     },
     {
-      "@id": "http://spdx.org/licenses/PostgreSQL", 
+      "@id": "http://spdx.org/licenses/PostgreSQL",
       "@type": "DefinedTerm",
       "termCode": "PostgreSQL",
       "identifier": "PostgreSQL",
@@ -1178,7 +1184,7 @@
       "url": "https://opensource.org/licenses/PostgreSQL"
     },
     {
-      "@id": "http://spdx.org/licenses/Python-2.0", 
+      "@id": "http://spdx.org/licenses/Python-2.0",
       "@type": "DefinedTerm",
       "termCode": "Python-2.0",
       "identifier": "Python-2.0",
@@ -1186,7 +1192,7 @@
       "url": "https://opensource.org/licenses/Python-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/QPL-1.0", 
+      "@id": "http://spdx.org/licenses/QPL-1.0",
       "@type": "DefinedTerm",
       "termCode": "QPL-1.0",
       "identifier": "QPL-1.0",
@@ -1194,7 +1200,7 @@
       "url": "https://opensource.org/licenses/QPL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/RPL-1.5", 
+      "@id": "http://spdx.org/licenses/RPL-1.5",
       "@type": "DefinedTerm",
       "termCode": "RPL-1.5",
       "identifier": "RPL-1.5",
@@ -1202,7 +1208,7 @@
       "url": "https://opensource.org/licenses/RPL-1.5"
     },
     {
-      "@id": "http://spdx.org/licenses/RPSL-1.0", 
+      "@id": "http://spdx.org/licenses/RPSL-1.0",
       "@type": "DefinedTerm",
       "termCode": "RPSL-1.0",
       "identifier": "RPSL-1.0",
@@ -1210,7 +1216,7 @@
       "url": "https://opensource.org/licenses/RPSL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/RSCPL", 
+      "@id": "http://spdx.org/licenses/RSCPL",
       "@type": "DefinedTerm",
       "termCode": "RSCPL",
       "identifier": "RSCPL",
@@ -1218,7 +1224,7 @@
       "url": "https://opensource.org/licenses/RSCPL"
     },
     {
-      "@id": "http://spdx.org/licenses/SISSL", 
+      "@id": "http://spdx.org/licenses/SISSL",
       "@type": "DefinedTerm",
       "termCode": "SISSL",
       "identifier": "SISSL",
@@ -1226,7 +1232,7 @@
       "url": "https://opensource.org/licenses/SISSL"
     },
     {
-      "@id": "http://spdx.org/licenses/SPL-1.0", 
+      "@id": "http://spdx.org/licenses/SPL-1.0",
       "@type": "DefinedTerm",
       "termCode": "SPL-1.0",
       "identifier": "SPL-1.0",
@@ -1234,7 +1240,7 @@
       "url": "https://opensource.org/licenses/SPL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/SimPL-2.0", 
+      "@id": "http://spdx.org/licenses/SimPL-2.0",
       "@type": "DefinedTerm",
       "termCode": "SimPL-2.0",
       "identifier": "SimPL-2.0",
@@ -1242,7 +1248,7 @@
       "url": "https://opensource.org/licenses/SimPL-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/Sleepycat", 
+      "@id": "http://spdx.org/licenses/Sleepycat",
       "@type": "DefinedTerm",
       "termCode": "Sleepycat",
       "identifier": "Sleepycat",
@@ -1250,7 +1256,7 @@
       "url": "https://opensource.org/licenses/Sleepycat"
     },
     {
-      "@id": "http://spdx.org/licenses/Unlicense", 
+      "@id": "http://spdx.org/licenses/Unlicense",
       "@type": "DefinedTerm",
       "termCode": "Unlicense",
       "identifier": "Unlicense",
@@ -1258,7 +1264,7 @@
       "url": "https://unlicense.org/"
     },
     {
-      "@id": "http://spdx.org/licenses/VSL-1.0", 
+      "@id": "http://spdx.org/licenses/VSL-1.0",
       "@type": "DefinedTerm",
       "termCode": "VSL-1.0",
       "identifier": "VSL-1.0",
@@ -1266,7 +1272,7 @@
       "url": "https://opensource.org/licenses/VSL-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/W3C", 
+      "@id": "http://spdx.org/licenses/W3C",
       "@type": "DefinedTerm",
       "termCode": "W3C",
       "identifier": "W3C",
@@ -1274,7 +1280,7 @@
       "url": "https://opensource.org/licenses/W3C"
     },
     {
-      "@id": "http://spdx.org/licenses/WXwindows", 
+      "@id": "http://spdx.org/licenses/WXwindows",
       "@type": "DefinedTerm",
       "termCode": "WXwindows",
       "identifier": "WXwindows",
@@ -1282,7 +1288,7 @@
       "url": "https://opensource.org/licenses/WXwindows"
     },
     {
-      "@id": "http://spdx.org/licenses/Watcom-1.0", 
+      "@id": "http://spdx.org/licenses/Watcom-1.0",
       "@type": "DefinedTerm",
       "termCode": "Watcom-1.0",
       "identifier": "Watcom-1.0",
@@ -1290,7 +1296,7 @@
       "url": "https://opensource.org/licenses/Watcom-1.0"
     },
     {
-      "@id": "http://spdx.org/licenses/Xnet", 
+      "@id": "http://spdx.org/licenses/Xnet",
       "@type": "DefinedTerm",
       "termCode": "Xnet",
       "identifier": "Xnet",
@@ -1298,7 +1304,7 @@
       "url": "https://opensource.org/licenses/Xnet"
     },
     {
-      "@id": "http://spdx.org/licenses/ZPL-2.0", 
+      "@id": "http://spdx.org/licenses/ZPL-2.0",
       "@type": "DefinedTerm",
       "termCode": "ZPL-2.0",
       "identifier": "ZPL-2.0",
@@ -1306,7 +1312,7 @@
       "url": "https://opensource.org/licenses/ZPL-2.0"
     },
     {
-      "@id": "http://spdx.org/licenses/Zlib", 
+      "@id": "http://spdx.org/licenses/Zlib",
       "@type": "DefinedTerm",
       "termCode": "Zlib",
       "identifier": "Zlib",
@@ -1314,7 +1320,7 @@
       "url": "https://opensource.org/licenses/Zlib"
     },
     {
-      "@id": "http://spdx.org/licenses/mitre", 
+      "@id": "http://spdx.org/licenses/mitre",
       "@type": "DefinedTerm",
       "termCode": "mitre",
       "identifier": "mitre",
@@ -1322,7 +1328,7 @@
       "url": "https://opensource.org/licenses/CVW"
     },
     {
-      "@id": "http://spdx.org/licenses/notspecified", 
+      "@id": "http://spdx.org/licenses/notspecified",
       "@type": "DefinedTerm",
       "termCode": "notspecified",
       "identifier": "notspecified",
@@ -1343,7 +1349,6 @@
         "@id": "https://github.com/seek4science/seek/issues/183"
       }
     },
-
     {
       "@id": "https://bioschemas.org/ComputationalWorkflow",
       "@type": "DefinedTerm",
@@ -1374,7 +1379,7 @@
       "name": "ComputationalWorkflow Profile",
       "version": "1.0-RELEASE",
       "description": "Bioschemas specification for describing a Computational Workflow"
-    },    
+    },
     {
       "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE",
       "@type": "Guide",
@@ -1412,6 +1417,5 @@
       "name": "Comments on Workflow RO-Crate spec (GitHub)",
       "url": "https://github.com/seek4science/seek/issues/183"
     }
-
   ]
 }
