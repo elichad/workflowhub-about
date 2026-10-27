@@ -68,6 +68,9 @@
         },
         {
           "@id": "example/"
+        },
+        {
+          "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
         }
       ],
       "mentions": [
@@ -79,9 +82,6 @@
         },
         {
           "@id": "https://github.com/inab/WfExS-backend/"
-        },
-        {
-          "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
         }
       ],
       "identifier": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
